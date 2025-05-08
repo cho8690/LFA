@@ -1,0 +1,53 @@
+autopep8 @ file:///home/conda/feedstock_root/build_artifacts/autopep8_1693061251004/work
+black @ file:///Users/runner/miniforge3/conda-bld/black-recipe_1714119705578/work
+certifi @ file:///home/conda/feedstock_root/build_artifacts/certifi_1718025014955/work/certifi
+cffi==1.16.0
+click @ file:///home/conda/feedstock_root/build_artifacts/click_1692311806742/work
+colorama @ file:///home/conda/feedstock_root/build_artifacts/colorama_1666700638685/work
+contourpy @ file:///Users/runner/miniforge3/conda-bld/contourpy_1699041438285/work
+cycler @ file:///home/conda/feedstock_root/build_artifacts/cycler_1696677705766/work
+Cython @ file:///Users/runner/miniforge3/conda-bld/cython_1706274842279/work
+exceptiongroup @ file:///home/conda/feedstock_root/build_artifacts/exceptiongroup_1704921103267/work
+fonttools @ file:///Users/runner/miniforge3/conda-bld/fonttools_1708049363953/work
+imagecodecs @ file:///Users/runner/miniforge3/conda-bld/imagecodecs_1704019823739/work
+imageio @ file:///home/conda/feedstock_root/build_artifacts/imageio_1707730027807/work
+iniconfig @ file:///home/conda/feedstock_root/build_artifacts/iniconfig_1673103042956/work
+joblib @ file:///home/conda/feedstock_root/build_artifacts/joblib_1691577114857/work
+kiwisolver @ file:///Users/runner/miniforge3/conda-bld/kiwisolver_1695380072051/work
+lazy_loader @ file:///home/conda/feedstock_root/build_artifacts/lazy_loader_1692295373316/work
+matplotlib @ file:///Users/runner/miniforge3/conda-bld/matplotlib-suite_1708026703492/work
+munkres==1.1.4
+mypy @ file:///Users/runner/miniforge3/conda-bld/mypy-split_1703183746667/work
+mypy-extensions @ file:///home/conda/feedstock_root/build_artifacts/mypy_extensions_1675543315189/work
+networkx @ file:///home/conda/feedstock_root/build_artifacts/networkx_1698504735452/work
+numpy @ file:///Users/runner/miniforge3/conda-bld/numpy_1707225421156/work/dist/numpy-1.26.4-cp312-cp312-macosx_11_0_arm64.whl#sha256=011d57633d659db8280a5811d62d0c5a615719a6d7cbd46a04f6ffce0c2a7db3
+opencv-python==4.9.0
+packaging @ file:///home/conda/feedstock_root/build_artifacts/packaging_1696202382185/work
+pandas @ file:///Users/runner/miniforge3/conda-bld/pandas_1705728479029/work
+pathspec @ file:///home/conda/feedstock_root/build_artifacts/pathspec_1702249949303/work
+pillow @ file:///Users/runner/miniforge3/conda-bld/pillow_1704252125823/work
+platformdirs @ file:///home/conda/feedstock_root/build_artifacts/platformdirs_1715777629804/work
+pluggy @ file:///home/conda/feedstock_root/build_artifacts/pluggy_1706116770704/work
+psutil @ file:///Users/runner/miniforge3/conda-bld/psutil_1705722460205/work
+pyarrow==15.0.0
+pycodestyle @ file:///home/conda/feedstock_root/build_artifacts/pycodestyle_1697202867721/work
+pycparser==2.21
+pyheif==0.7.1
+pyparsing @ file:///home/conda/feedstock_root/build_artifacts/pyparsing_1690737849915/work
+pytest @ file:///home/conda/feedstock_root/build_artifacts/pytest_1708432879235/work
+python-dateutil @ file:///home/conda/feedstock_root/build_artifacts/python-dateutil_1626286286081/work
+pytz @ file:///home/conda/feedstock_root/build_artifacts/pytz_1706886791323/work
+PyWavelets @ file:///Users/runner/miniforge3/conda-bld/pywavelets_1695567640719/work
+rawpy==0.19.1
+scikit-image @ file:///Users/runner/miniforge3/conda-bld/scikit-image_1697028826230/work/dist/scikit_image-0.22.0-cp312-cp312-macosx_11_0_arm64.whl#sha256=621ef2cca30de65d787d1ec63c2e948a3fb6726c1215dcdff580c3debb414580
+scikit-learn @ file:///Users/runner/miniforge3/conda-bld/scikit-learn_1708073867926/work
+scipy @ file:///Users/runner/miniforge3/conda-bld/scipy-split_1706041804770/work/dist/scipy-1.12.0-cp312-cp312-macosx_11_0_arm64.whl#sha256=492ebe973e51236862776064cf4b70d78cfd98b74aa74bcba49e23dc1fa5bf3f
+setuptools==69.1.1
+six @ file:///home/conda/feedstock_root/build_artifacts/six_1620240208055/work
+threadpoolctl @ file:///home/conda/feedstock_root/build_artifacts/threadpoolctl_1707930541534/work
+tifffile @ file:///home/conda/feedstock_root/build_artifacts/tifffile_1707824820518/work
+tomli @ file:///home/conda/feedstock_root/build_artifacts/tomli_1644342247877/work
+tornado @ file:///Users/runner/miniforge3/conda-bld/tornado_1708363367885/work
+typing_extensions @ file:///home/conda/feedstock_root/build_artifacts/typing_extensions_1702176139754/work
+tzdata @ file:///home/conda/feedstock_root/build_artifacts/python-tzdata_1707747584337/work
+wheel==0.42.0
