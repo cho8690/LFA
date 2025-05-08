@@ -1,0 +1,63 @@
+// LFA Signals v7
+//run("Open...");    (Optional) (Erase the "//" here to make the macro import the image instead!)
+
+logPath = File.directory + File.separator + getTitle() + "_log.txt";
+
+// Redirect print statements to the log file
+print(">"+logPath);
+
+
+// Log the start of the analysis
+title = getTitle();
+print("LFA Analysis Started");
+print("Image: " + title);
+
+
+run("Split Channels");
+selectWindow(title + " (red)");
+close();
+selectWindow(title + " (blue)");
+close();
+
+//selectWindow(title + channel);  // Select the chosen channel
+selectWindow(title + " (green)");
+
+// Manually set the 3 points
+setTool("polyline");
+waitForUser("Select three points along the LFA strip using the segmented line tool.");
+
+lineWidth = getNumber("Enter line width:", 25);
+print("Line Width: " + lineWidth);
+
+// Draw the line with the specified width (for visualization)
+print("Marking Image..."); // Log before the operation
+run("Line Width...", "line="+lineWidth);
+run("Straighten...", "title=Straightened line="+lineWidth);
+
+// Apply the marked selection into the image, then Save the marked image
+selectWindow(title + " (green)");
+run("Fill");
+savePath = File.directory + File.separator + title + "_marked.tif"; // Or .jpg, .png as needed
+saveAs("Tiff", savePath); // Change file type if necessary
+print("Marked Image Saved: " + savePath);
+
+print("Analyzing straightened Image...");
+selectWindow("Straightened");
+
+// Extract Data
+run("Image to Results");
+print("Data Extracted");
+
+// Save Results table to CSV
+path = File.directory + File.separator + title + "_results.csv";
+print("Saving CSV...");
+Table.save(path);
+print("CSV Saved: " + path);
+
+close("Results");
+run("Close All");
+selectWindow("Log");
+saveAs("txt", logPath);
+run("Close");
+//print("LFA analysis complete. Check the system log file for details.");
+
